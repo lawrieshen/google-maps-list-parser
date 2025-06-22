@@ -1,0 +1,13 @@
+{
+  "name": "google-maps-list-parser",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.1.0"
+  }
+}
