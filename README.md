@@ -72,7 +72,7 @@ SOFTWARE.
 ## Contact
 Created by Lawrence Shen on 22/06/2025. Feel free to reach out for questions or contributions. 
 
-## 📜 Revision History
+## Revision History
 
 | Version | Date       | Author           | Description                             |
 |---------|------------|------------------|-----------------------------------------|
