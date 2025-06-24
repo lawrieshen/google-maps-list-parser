@@ -74,6 +74,8 @@ export const handler = async (req, res) => {
 
     res.status(200).json({ 
         source_url: finalUrl,
+        owner_display_name: owner_display_name,
+        public_saved_list_name: public_saved_list_name,
         places
     })
   } catch (err) {

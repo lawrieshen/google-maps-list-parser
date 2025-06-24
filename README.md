@@ -18,6 +18,8 @@ This is designed to be deployed as Google Cloud Run service, allowing your appli
 ```json
 {
     "source_url": "https://www.google.com/maps/place/...",
+    "owner_display_name": "...",
+    "public_saved_list_name": "...",
     "places": [
         {
             "name": "...",
@@ -34,6 +36,13 @@ This is designed to be deployed as Google Cloud Run service, allowing your appli
     ]
 }
 ```
+
+## Disclaimer
+This service is based on the Google Maps API response format as of 24/06/2025. Since Google may update its internal JSON structure at any time, this parser is not guaranteed to remain compatible with future changes.
+
+## Potential Extended Application
+
+Users can leverage the information in the response body to launch Google Maps for place searches, directions, and navigation based on the extracted public saved list. For additional inspiration, feel free to consult the [Google Maps URL documentation](https://developers.google.com/maps/documentation/urls/get-started).
 
 ## Setup and Deployment
 - Node.js 22 recommended
