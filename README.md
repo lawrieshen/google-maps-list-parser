@@ -47,6 +47,8 @@ Users can leverage the information in the response body to launch Google Maps fo
 ## Setup and Deployment
 - Node.js 22 recommended
 - Hosted on Google Cloud Run Service
+- Suggested Potential Architecture
+![alt text](potentialArchitecture.png)
 
 ## Dependencies
 - axios — for following redirects and fetching HTML
