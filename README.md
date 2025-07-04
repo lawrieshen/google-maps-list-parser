@@ -37,6 +37,10 @@ This is designed to be deployed as Google Cloud Run service, allowing your appli
 }
 ```
 
+## Demo
+
+https://github.com/user-attachments/assets/bbd67a46-b909-474c-a778-9b6dd14424a2
+
 ## Disclaimer
 This service is based on the Google Maps API response format as of 24/06/2025. Since Google may update its internal JSON structure at any time, this parser is not guaranteed to remain compatible with future changes.
 
